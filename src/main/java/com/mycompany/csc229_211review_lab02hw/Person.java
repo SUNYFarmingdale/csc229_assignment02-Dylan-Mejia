@@ -13,8 +13,8 @@ public abstract class Person {
 	// constructor that takes only two paras
 	public Person(String name, short age) {
 		super();
-		this.name = name;
-		this.age = age;
+		this.name = this.name;
+		this.age = this.age;
 	}
 	
 	public String getName() {
